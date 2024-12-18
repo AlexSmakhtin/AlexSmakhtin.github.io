@@ -64,7 +64,7 @@ const CreateCatFact = () => {
             )
         }
         return () => {
-            for (let timeout in timeouts) {
+            for (let timeout of timeouts) {
                 clearTimeout(timeout)
             }
         }
