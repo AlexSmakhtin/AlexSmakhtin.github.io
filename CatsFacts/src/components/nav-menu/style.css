@@ -1,0 +1,17 @@
+.navContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+}
+.navButton{
+    font-size: 1.1em;
+    padding:5px
+}
+.navButton:hover{
+    transition: background-color 200ms linear;
+    border-radius: 5px;
+    background-color: darkgray;
+
+}

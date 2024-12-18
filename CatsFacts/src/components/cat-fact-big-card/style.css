@@ -1,0 +1,31 @@
+.bigCard {
+    margin: 10px;
+    width: 100%;
+}
+
+.inputFiled {
+    width: 100%;
+}
+
+.bigCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardTitle {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.cardText {
+    text-indent: 20px;
+    text-align: left;
+    font-size: 1.0em;
+}
+
+.cardMiniText {
+    padding: 0;
+    text-align: center;
+    font-size: 0.8em;
+}
